@@ -1,9 +1,9 @@
 spring:
   application:
-    name: PRODUCT-SERVICE
+    name: Product_Service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/product_db
+    url: jdbc:mysql://localhost:3306/product_db_microservice
     username: root
     password: Dibya@123
 
@@ -13,4 +13,4 @@ spring:
     show-sql: true
 
 server:
-  port: 8081
+  port: 8082
